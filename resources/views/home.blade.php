@@ -605,8 +605,8 @@
                             class="attachment-thumbnail size-thumbnail wp-image-2119"
                             alt=""
                             srcset="
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/petbowl-150x150.png 150w,
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/petbowl-100x100.png 100w
+                              ../wp-content/uploads/2017/04/petbowl-150x150.png 150w,
+                              ../wp-content/uploads/2017/04/petbowl-100x100.png 100w
                             "
                             sizes="(max-width: 150px) 100vw, 150px"
                           />
@@ -853,7 +853,7 @@
                           <ul></ul>
                         </div>
                         <form
-                          action="https://petz.boostifythemes.com/#wpcf7-f1839-p2413-o1"
+                          action="../#wpcf7-f1839-p2413-o1"
                           method="post"
                           class="wpcf7-form init"
                           aria-label="Contact form"
@@ -1156,10 +1156,10 @@
                     class="attachment-large size-large wp-image-2066"
                     alt=""
                     srcset="
-                      https://petz.boostifythemes.com/wp-content/uploads/2017/04/call1.jpg         800w,
-                      https://petz.boostifythemes.com/wp-content/uploads/2017/04/call1-300x218.jpg 300w,
-                      https://petz.boostifythemes.com/wp-content/uploads/2017/04/call1-768x558.jpg 768w,
-                      https://petz.boostifythemes.com/wp-content/uploads/2017/04/call1-600x436.jpg 600w
+                      ../wp-content/uploads/2017/04/call1.jpg         800w,
+                      ../wp-content/uploads/2017/04/call1-300x218.jpg 300w,
+                      ../wp-content/uploads/2017/04/call1-768x558.jpg 768w,
+                      ../wp-content/uploads/2017/04/call1-600x436.jpg 600w
                     "
                     sizes="(max-width: 800px) 100vw, 800px"
                   />
@@ -1396,8 +1396,8 @@
                             class="attachment-full size-full wp-image-2114"
                             alt=""
                             srcset="
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/bones.png         380w,
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/bones-300x235.png 300w
+                              ../wp-content/uploads/2017/04/bones.png         380w,
+                              ../wp-content/uploads/2017/04/bones-300x235.png 300w
                             "
                             sizes="(max-width: 380px) 100vw, 380px"
                           />
@@ -1419,8 +1419,8 @@
                             class="attachment-full size-full wp-image-2115"
                             alt=""
                             srcset="
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/bones1.png         380w,
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/bones1-276x300.png 276w
+                              ../wp-content/uploads/2017/04/bones1.png         380w,
+                              ../wp-content/uploads/2017/04/bones1-276x300.png 276w
                             "
                             sizes="(max-width: 380px) 100vw, 380px"
                           />
@@ -1442,8 +1442,8 @@
                             class="attachment-full size-full wp-image-2106"
                             alt=""
                             srcset="
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/stats.png         300w,
-                              https://petz.boostifythemes.com/wp-content/uploads/2017/04/stats-192x300.png 192w
+                              ../wp-content/uploads/2017/04/stats.png         300w,
+                              ../wp-content/uploads/2017/04/stats-192x300.png 192w
                             "
                             sizes="(max-width: 300px) 100vw, 300px"
                           />
@@ -1609,7 +1609,7 @@
                                 <ul></ul>
                               </div>
                               <form
-                                action="https://petz.boostifythemes.com/#wpcf7-f1866-p2413-o2"
+                                action="../#wpcf7-f1866-p2413-o2"
                                 method="post"
                                 class="wpcf7-form init"
                                 aria-label="Contact form"

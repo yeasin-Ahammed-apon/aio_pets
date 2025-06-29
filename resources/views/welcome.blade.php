@@ -8,72 +8,8 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="../xmlrpc.php">
     <title>Petz – Pet Care &amp; Veterinary Theme</title>
-    <meta name="robots" content="max-image-preview:large">
-    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//s.w.org">
-    <link rel="alternate" type="application/rss+xml" title="Petz » Feed" href="../feed/">
-    <link rel="alternate" type="application/rss+xml" title="Petz » Comments Feed"
-        href="../comments/feed/">
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "https:\/\/petz.boostifythemes.com\/wp-includes\/js\/wp-emoji-release.min.js"
-            }
-        };
-        /*! This file is auto-generated */
-        ! function(e, a, t) {
-            var n, r, o, i = a.createElement("canvas"),
-                p = i.getContext && i.getContext("2d");
-
-            function s(e, t) {
-                var a = String.fromCharCode,
-                    e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
-                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
-            }
-
-            function c(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-            for (o = Array("flag", "emoji"), t.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-                if (!p || !p.fillText) return !1;
-                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
-                    case "flag":
-                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([
-                            55356, 56826, 55356, 56819
-                        ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418,
-                            56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447
-                        ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
-                            56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
-                        ]);
-                    case "emoji":
-                        return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
-                }
-                return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
-                .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
-                .readyCallback = function() {
-                    t.DOMReady = !0
-                }, t.supports.everything || (n = function() {
-                    t.readyCallback()
-                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
-                    1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                    "complete" === a.readyState && t.readyCallback()
-                })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
-                    .wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
-    <script src="../wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer="">
-    </script>
+ 
+    <script src="../wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -127,30 +63,39 @@
             --wp--preset--font-size--large: 36px;
             --wp--preset--font-size--x-large: 42px;
         }
+
         .has-black-color {
             color: var(--wp--preset--color--black) !important;
         }
+
         .has-cyan-bluish-gray-color {
             color: var(--wp--preset--color--cyan-bluish-gray) !important;
         }
+
         .has-white-color {
             color: var(--wp--preset--color--white) !important;
         }
+
         .has-pale-pink-color {
             color: var(--wp--preset--color--pale-pink) !important;
         }
+
         .has-vivid-red-color {
             color: var(--wp--preset--color--vivid-red) !important;
         }
+
         .has-luminous-vivid-orange-color {
             color: var(--wp--preset--color--luminous-vivid-orange) !important;
         }
+
         .has-luminous-vivid-amber-color {
             color: var(--wp--preset--color--luminous-vivid-amber) !important;
         }
+
         .has-light-green-cyan-color {
             color: var(--wp--preset--color--light-green-cyan) !important;
         }
+
         .has-vivid-green-cyan-color {
             color: var(--wp--preset--color--vivid-green-cyan) !important;
         }
@@ -327,34 +272,30 @@
             font-size: var(--wp--preset--font-size--x-large) !important;
         }
     </style>
-    <link rel="stylesheet" id="contact-form-7-css"
-        href="../wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css"
-        media="all">
-    <link rel="stylesheet" id="woocommerce-layout-css"
-        href="../wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css"
+    <link rel="stylesheet" id="contact-form-7-css" href="../wp-content/plugins/contact-form-7/includes/css/styles.css"
         type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-layout-css"
+        href="../wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css" type="text/css" media="all">
     <link rel="stylesheet" id="woocommerce-smallscreen-css"
-        href="../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css"
-        type="text/css" media="only screen and (max-width: 768px)">
+        href="../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css" type="text/css"
+        media="only screen and (max-width: 768px)">
     <link rel="stylesheet" id="woocommerce-general-css"
-        href="../wp-content/plugins/woocommerce/assets/css/woocommerce.css" type="text/css"
-        media="all">
+        href="../wp-content/plugins/woocommerce/assets/css/woocommerce.css" type="text/css" media="all">
     <style id="woocommerce-inline-inline-css" type="text/css">
         .woocommerce form .form-row .required {
             visibility: visible;
         }
     </style>
-    <link rel="stylesheet" id="petz-theme-style-css"
-        href="../wp-content/themes/petz/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="petz-theme-style-css" href="../wp-content/themes/petz/style.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="google-fonts-baloo-thambi-css-css"
         href="https://fonts.googleapis.com/css?family=Baloo+Thambi%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaloo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;&amp;ver=1.0"
         type="text/css" media="all">
     <link rel="stylesheet" id="elementor-icons-css"
-        href="../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-frontend-css"
-        href="../wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css"
+        href="../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css"
         media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="../wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all">
     <style id="elementor-frontend-inline-css" type="text/css">
         .elementor-kit-8050 {
             --e-global-color-primary: #6EC1E4;
@@ -1730,21 +1671,16 @@
         }
     </style>
     <link rel="stylesheet" id="swiper-css"
-        href="../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
-        type="text/css" media="all">
+        href="../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
         href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.9"
         type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <script type="text/javascript" src="../wp-includes/js/jquery/jquery.min.js"
-        id="jquery-core-js"></script>
-    <script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min.js"
-        id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="../wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
     <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/2413">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="../xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="../wp-includes/wlwmanifest.xml">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.0.9">
     <meta name="generator" content="WooCommerce 7.7.2">
     <link rel="canonical" href="../">
@@ -1786,13 +1722,10 @@
     </style>
     <meta name="generator"
         content="Powered by Slider Revolution 6.7.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-    <link rel="icon" href="../wp-content/uploads/2017/04/favicon.png"
-        sizes="32x32">
-    <link rel="icon" href="../wp-content/uploads/2017/04/favicon.png"
-        sizes="192x192">
+    <link rel="icon" href="../wp-content/uploads/2017/04/favicon.png" sizes="32x32">
+    <link rel="icon" href="../wp-content/uploads/2017/04/favicon.png" sizes="192x192">
     <link rel="apple-touch-icon" href="../wp-content/uploads/2017/04/favicon.png">
-    <meta name="msapplication-TileImage"
-        content="../wp-content/uploads/2017/04/favicon.png">
+    <meta name="msapplication-TileImage" content="../wp-content/uploads/2017/04/favicon.png">
     <script>
         function setREVStartSize(e) {
             //window.requestAnimationFrame(function() {
@@ -2316,106 +2249,269 @@
     class="page-template-default page page-id-2468 theme-petz woocommerce-no-js masthead-fixed full-width footer-widgets singular elementor-default elementor-kit-8050 elementor-page elementor-page-2468"
     itemscope itemtype="http://schema.org/WebPage">
     @include('components.header')
-    @include('components.nav')
-
-    @include('components.crumbs')
+    @if (!Request::is('/'))
+        @include('components.nav')
+        @include('components.crumbs')
+    @endif
     @yield('content')
     @include('components.footer')
 
 
-<script>
-			window.RS_MODULES = window.RS_MODULES || {};
-			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
-			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
-			window.RS_MODULES.defered = true;
-			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
-			window.RS_MODULES.type = 'compiled';
-		</script>
-					<script type="text/javascript">
-				const lazyloadRunObserver = () => {
-					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
-					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
-						entries.forEach( ( entry ) => {
-							if ( entry.isIntersecting ) {
-								let lazyloadBackground = entry.target;
-								if( lazyloadBackground ) {
-									lazyloadBackground.classList.add( 'e-lazyloaded' );
-								}
-								lazyloadBackgroundObserver.unobserve( entry.target );
-							}
-						});
-					}, { rootMargin: '200px 0px 200px 0px' } );
-					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
-						lazyloadBackgroundObserver.observe( lazyloadBackground );
-					} );
-				};
-				const events = [
-					'DOMContentLoaded',
-					'elementor/lazyload/observe',
-				];
-				events.forEach( ( event ) => {
-					document.addEventListener( event, lazyloadRunObserver );
-				} );
-			</script>
-				<script type="text/javascript">
-		(function () {
-			var c = document.body.className;
-			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-			document.body.className = c;
-		})();
-	</script>
-	<link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="rs-plugin-settings-css" href="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css" type="text/css" media="all">
-<style id="rs-plugin-settings-inline-css" type="text/css">
-#rs-demo-id {}
-</style>
-<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-extra">
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/petz.boostifythemes.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
-<script type="text/javascript" src="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js" defer="" async="" id="tp-tools-js"></script>
-<script type="text/javascript" src="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js" defer="" async="" id="revmin-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
-<script type="text/javascript" id="wc-add-to-cart-js-extra">
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/petz.boostifythemes.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
-<script type="text/javascript" id="woocommerce-js-extra">
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"></script>
-<script type="text/javascript" id="wc-cart-fragments-js-extra">
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_0c21c92be58154f6b9e3508ea7c9d8ae","fragment_name":"wc_fragments_0c21c92be58154f6b9e3508ea7c9d8ae","request_timeout":"5000"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/jquery.plugins.js" id="petz-theme-plugins-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/jquery.custom.js" id="petz-theme-script-js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js" id="petz-waypoints-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/jquery.counterup.min.js" id="petz-counterup-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/slick.min.js" id="petz-slide-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/owl.carousel.js" id="petz-slide-owl-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/isotope.pkgd.min.js" id="petz-isotope-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/slider-banner.js" id="petz-slider-js"></script>
-<script type="text/javascript" src="../wp-content/themes/petz/js/elementor.js" id="petz-elementor-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
-<script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
-<script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
-"version":"3.23.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"e_lazyload":true},"urls":{"assets":"https:\/\/petz.boostifythemes.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/petz.boostifythemes.com\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"580546e76b"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2413,"title":"Petz%20%E2%80%93%20Pet%20Care%20%26%20Veterinary%20Theme","excerpt":"","featuredImage":false}};
-</script>
-<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script>
+        window.RS_MODULES = window.RS_MODULES || {};
+        window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+        window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+        window.RS_MODULES.defered = true;
+        window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+        window.RS_MODULES.type = 'compiled';
+    </script>
+    <script type="text/javascript">
+        const lazyloadRunObserver = () => {
+            const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+            const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        let lazyloadBackground = entry.target;
+                        if (lazyloadBackground) {
+                            lazyloadBackground.classList.add('e-lazyloaded');
+                        }
+                        lazyloadBackgroundObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px 0px 200px 0px'
+            });
+            lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                lazyloadBackgroundObserver.observe(lazyloadBackground);
+            });
+        };
+        const events = [
+            'DOMContentLoaded',
+            'elementor/lazyload/observe',
+        ];
+        events.forEach((event) => {
+            document.addEventListener(event, lazyloadRunObserver);
+        });
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <link rel="stylesheet" id="e-animations-css"
+        href="../wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="rs-plugin-settings-css"
+        href="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/css/rs6.css" type="text/css"
+        media="all">
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+        #rs-demo-id {}
+    </style>
+    <script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/petz.boostifythemes.com\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js">
+    </script>
+    <script type="text/javascript" src="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js"
+        defer="" async="" id="tp-tools-js"></script>
+    <script type="text/javascript" src="//petz.boostifythemes.com/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js"
+        defer="" async="" id="revmin-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+        id="jquery-blockui-js"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/petz.boostifythemes.com\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+        id="wc-add-to-cart-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+        id="js-cookie-js"></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+        id="woocommerce-js"></script>
+    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_0c21c92be58154f6b9e3508ea7c9d8ae",
+            "fragment_name": "wc_fragments_0c21c92be58154f6b9e3508ea7c9d8ae",
+            "request_timeout": "5000"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"
+        id="wc-cart-fragments-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/jquery.plugins.js" id="petz-theme-plugins-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/jquery.custom.js" id="petz-theme-script-js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"
+        id="petz-waypoints-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/jquery.counterup.min.js" id="petz-counterup-js">
+    </script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/slick.min.js" id="petz-slide-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/owl.carousel.js" id="petz-slide-owl-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/isotope.pkgd.min.js" id="petz-isotope-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/slider-banner.js" id="petz-slider-js"></script>
+    <script type="text/javascript" src="../wp-content/themes/petz/js/elementor.js" id="petz-elementor-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+        id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+        id="elementor-waypoints-js"></script>
+    <script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.23.4",
+            "is_static": false,
+            "experimentalFeatures": {
+                "additional_custom_breakpoints": true,
+                "container_grid": true,
+                "e_swiper_latest": true,
+                "e_nested_atomic_repeaters": true,
+                "e_onboarding": true,
+                "home_screen": true,
+                "ai-layout": true,
+                "landing-pages": true,
+                "e_lazyload": true
+            },
+            "urls": {
+                "assets": "https:\/\/petz.boostifythemes.com\/wp-content\/plugins\/elementor\/assets\/",
+                "ajaxurl": "https:\/\/petz.boostifythemes.com\/wp-admin\/admin-ajax.php"
+            },
+            "nonces": {
+                "floatingButtonsClickTracking": "580546e76b"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 2413,
+                "title": "Petz%20%E2%80%93%20Pet%20Care%20%26%20Veterinary%20Theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.min.js"
+        id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
 
 
 </body>

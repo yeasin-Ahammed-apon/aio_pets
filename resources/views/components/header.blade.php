@@ -3,30 +3,30 @@
         <div class="container">
             <nav class="theme-box-menu">
                 <ul id="menu-left-menu" class="primary-menu primary-left">
-                    <li id="menu-item-8455"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-8455 {{ Request::is('/') ? 'current-menu-item' : '' }}">
+                    <li id="menu-item-2677"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677 {{ Request::is('/') ? 'current-menu-item' : '' }}">
                         <a href="{{ url('/') }}">Home</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-2688"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2688 {{ Request::is('/') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/') }}">Home Default</a>
-                            </li>
-                            <li id="menu-item-8451"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8451 {{ Request::is('home-2') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/home-2') }}">Home Layer Slider</a>
-                            </li>
-                            <li id="menu-item-8450"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8450 {{ Request::is('home-parallax') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/home-parallax') }}">Home Parallax</a>
-                            </li>
-                        </ul>
                     </li>
                     <li id="menu-item-2677"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677 {{ Request::is('about') ? 'current-menu-item' : '' }}">
                         <a href="{{ url('/about') }}">About</a>
                     </li>
+                    @php
+                        $pagesRoutes = [
+                            'gallery',
+                            'adoption',
+                            'our-services',
+                            'services-pet-hotel',
+                            'our-team',
+                            'testi',
+                            'pricing-table'
+                        ];
+                        $isPagesActive = collect($pagesRoutes)->contains(function($route) {
+                            return Request::is($route);
+                        });
+                    @endphp
                     <li id="menu-item-2155"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2155">
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2155 {{ $isPagesActive ? 'current-menu-item' : '' }}">
                         <a href="#">Pages</a>
                         <ul class="sub-menu">
                             <li id="menu-item-2679"
@@ -68,10 +68,7 @@
                     <span class="screen-reader-text">Petz</span>
                 </div>
                 <ul id="menu-right-menu" class="primary-menu primary-right">
-                    <li id="menu-item-2369"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369 {{ Request::is('shop') ? 'current-menu-item' : '' }}">
-                        <a href="{{ url('/shop') }}">Shop</a>
-                    </li>
+                    
                     <li id="menu-item-2162"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2162 {{ Request::is('blog') ? 'current-menu-item' : '' }}">
                         <a href="#">Blog</a>
